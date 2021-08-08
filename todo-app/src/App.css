@@ -1,0 +1,40 @@
+
+.App {
+  text-align: center;
+}
+input[type=text]{
+  margin: 6px 6px;
+}
+input[type=password]{
+  margin: 6px 6px;
+}
+button{
+  background-color:rgb(29, 158, 29) ;
+  color: white;
+  margin: 20px 20px;
+}
+button:hover{
+cursor:pointer;
+box-shadow: 2px 2px rgb(255, 222, 77);
+}
+table{
+  margin: 10px 20px;
+}
+.head{
+  margin:1rem 0rem;
+}
+
+.App-header{
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footer{
+  position: fixed;
+  margin: auto;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #282c34;
+}
